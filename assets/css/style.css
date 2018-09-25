@@ -53,6 +53,10 @@ body{
 	font-size: 12px;
 }
 
+.right-content{
+	padding-left: 20px;
+}
+
 .header-info{
 	text-align: center;
 }
@@ -118,6 +122,11 @@ h1.applicant{
 	margin-left: 15px;
 }
 
+.summary-section .fancy span:before,
+.fancy span:after {
+	width: 80%;
+}
+
 .education-item{
 	margin-bottom: 20px;
 }
@@ -125,7 +134,7 @@ h1.applicant{
 .item-title{
 	text-transform: capitalize;
 	font-weight: 600;
-	margin-bottom: 0;
+	margin-bottom: 5px;
 }
 
 .item-info-title{
@@ -154,4 +163,14 @@ h1.applicant{
 span.address{
 	margin-right: 10px;
 	color: gray;
+}
+
+.c-icon{
+	font-size: 13px;
+	color: gray;
+	margin-right: 10px;
+}
+
+.skill-item{
+	margin-bottom: 20px;
 }
