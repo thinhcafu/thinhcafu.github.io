@@ -25,7 +25,7 @@ body{
 }
 
 .personal-info{
-	margin-left: 5px;
+	margin-left: 10px;
 	color: #000;
 	padding-bottom: 15px;
 	vertical-align: middle;
@@ -124,10 +124,12 @@ h1.applicant{
 .item-title{
 	text-transform: capitalize;
 	font-weight: 600;
+	margin-bottom: 0;
 }
 
 .item-info-title{
 	font-weight: 600;
+	margin-bottom: 10px;
 }
 
 .item-info{
@@ -142,4 +144,13 @@ h1.applicant{
 
 .info-content ul{
 	padding-left: 20px;
+}
+
+.black-color-text{
+	color: #000000;
+}
+
+span.address{
+	margin-right: 10px;
+	color: gray;
 }
