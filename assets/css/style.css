@@ -152,6 +152,10 @@ h1.applicant{
 	text-transform: none;
 }
 
+.info-content p{
+	margin-bottom: 10px;
+}
+
 .info-content ul{
 	padding-left: 20px;
 }
