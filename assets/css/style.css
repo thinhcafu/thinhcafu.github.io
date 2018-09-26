@@ -127,6 +127,30 @@ h1.applicant{
 	width: 80%;
 }
 
+/*.fancy:before,
+.fancy:after {
+	content: "";
+	position: absolute;
+	height: 5px;
+	border-bottom: 1px solid #FB6306;
+	border-top: 1px solid #FB6306;
+	top: 50%;
+	width: 100%;
+}
+.fancy:before {
+	right: 100%;
+	margin-right: 15px;
+}
+.fancy:after {
+	left: 100%;
+	margin-left: 15px;
+}
+
+.summary-section .fancy:before,
+.fancy:after {
+	width: 80%;
+}*/
+
 .education-item{
 	margin-bottom: 20px;
 }
